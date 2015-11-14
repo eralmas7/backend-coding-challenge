@@ -52,3 +52,24 @@ Instructions to build and run the application.
   	- After cloning, goto the directory backend-coding-challenge where we checked out the project.
   	- Once done, you could create executable jar using "mvn package"
   	- Once done, you should be able to run the application using "java -jar target/*.jar"
+  	
+##### Changes:
+	1. Exposed rest call to add new expense and to get all the expense data stored in repository.
+	2. Added new column in table to store the calculated vat value in repository and to display it on GUI.
+	3. VAT would be calculated on client-side as the user enters a new expense, before client saves the expense to the database.
+	4. Added JBheave acceptance test, Integration test, unit tests.
+	5. Added support to secure the rest endpoint using Spring security.
+
+##### Technologies used to build backend services:
+
+	1. Java 8
+	2. Spring Boot framework
+	3. JPA
+	4. JBehave, Junit, Mockito, Spring-Test
+	5. MySql
+	6. Tomcat
+	7. Maven
+
+##### Services used or deployed to:
+	- Cloud - https://expense-calculator-assignment.herokuapp.com/default.html
+	- CI - https://travis-ci.org/eralmas7/backend-coding-challenge
