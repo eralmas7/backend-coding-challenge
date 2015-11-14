@@ -57,8 +57,9 @@ Instructions to build and run the application.
 	1. Exposed rest call to add new expense and to get all the expense data stored in repository.
 	2. Added new column in table to store the calculated vat value in repository and to display it on GUI.
 	3. VAT would be calculated on client-side as the user enters a new expense, before client saves the expense to the database.
-	4. Added JBheave acceptance test, Integration test, unit tests.
-	5. Added support to secure the rest endpoint using Spring security.
+	4. Added validation on field Amount where we would just accept decimal numbers on the client side. 
+	5. Added JBheave acceptance test, Integration test, unit tests.
+	6. Added support to secure the rest endpoint using Spring security.
 
 ##### Technologies used to build backend services:
 
