@@ -38,3 +38,17 @@ Feel free to comment your code, or put explanations in a pull request within the
 
 ##### Why doesn’t the test include X?
 Good question. Feel free to tell us how to make the test better. Or, you know, fork it and improve it!
+
+Instructions to build and run the application.
+---------------------------------------------
+
+##### Pre-requisite for this project:
+	- Install Java8 using the instruction mentioned https://www.ntu.edu.sg/home/ehchua/programming/howto/JDK_HowTo.html
+	- Install Maven using the instruction mentioned https://maven.apache.org/install.html
+	- Install Git using https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+	
+##### To build the application:
+  	- Clone the repository using "git clone https://github.com/eralmas7/backend-coding-challenge.git" command.
+  	- After cloning, goto the directory backend-coding-challenge where we checked out the project.
+  	- Once done, you could create executable jar using "mvn package"
+  	- Once done, you should be able to run the application using "java -jar target/*.jar"
